@@ -24,7 +24,8 @@ def totxt(xml_path, out_path, cls_list):
         images = root.findall('image')
         for image in images:
             count += 1
-            name = image.get('name').split('.')[0]
+            # name = image.get('name').split('.')[0]
+            name = image.get('name').rsplit('.', 1)[0]  # Метод rsplit('.', 1) разбивает строку на две части, начиная справа, по первому вхождению точки '.'
             output = os.path.join(out_path, f"{name}.txt")
 
             with open(output, 'w') as f:
