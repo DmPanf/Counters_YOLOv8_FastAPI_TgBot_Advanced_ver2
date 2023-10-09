@@ -53,9 +53,9 @@ def totxt(xml_path, out_path, cls_list):
                     # x0, y0, x1, y1, x2, y2, x3, y3 = map(lambda x: x / img_width if x in [x0, x1, x2, x3] else x / img_height, [x0, y0, x1, y1, x2, y2, x3, y3])
                     x0, y0, x1, y1, x2, y2, x3, y3 = map(lambda x: round(x / img_width, 6) if x in [x0, x1, x2, x3] else round(x / img_height, 6), [x0, y0, x1, y1, x2, y2, x3, y3])
 
-                    # cls_index = cls_list.index(cls) if cls in cls_list else -1
-                    # f.write(f"{cls_index} {x0} {y0} {x1} {y1} {x2} {y2} {x3} {y3}\n")
-                    f.write(f"{cls} {x0} {y0} {x1} {y1} {x2} {y2} {x3} {y3}\n")
+                    cls_index = cls_list.index(cls) if cls in cls_list else -1
+                    f.write(f"{cls_index} {x0} {y0} {x1} {y1} {x2} {y2} {x3} {y3}\n")
+                    # f.write(f"{cls} {x0} {y0} {x1} {y1} {x2} {y2} {x3} {y3}\n")
 
         print(f"✅ Done with {count} files [images]")
 
