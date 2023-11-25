@@ -25,8 +25,6 @@ graph LR
 - Linux Manjaro
 - NVidia GPU support
 
-![image](https://github.com/DmPanf/Counters_YOLOv8_FastAPI_TgBot_Advanced_ver2/assets/99917230/5bd0eb08-3d61-4ec1-88e3-d6e7347e65e8)
-
 ### Installation
 1. Clone the repository:
    ```
@@ -47,6 +45,12 @@ graph LR
    docker run --gpus all -p 80:80 utility-meter-reading
    ```
 2. Interact with the Telegram Bot by sending images of utility meters.
+
+---
+
+![image](https://github.com/DmPanf/Counters_YOLOv8_FastAPI_TgBot_Advanced_ver2/assets/99917230/5bd0eb08-3d61-4ec1-88e3-d6e7347e65e8)
+
+---
 
 ### Contributing
 Contributions to this project are welcome! Please fork the repository and submit pull requests with your enhancements.
