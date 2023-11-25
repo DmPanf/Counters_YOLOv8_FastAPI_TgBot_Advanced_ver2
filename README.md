@@ -25,6 +25,8 @@ graph LR
 - Linux Manjaro
 - NVidia GPU support
 
+![image](https://github.com/DmPanf/Counters_YOLOv8_FastAPI_TgBot_Advanced_ver2/assets/99917230/5bd0eb08-3d61-4ec1-88e3-d6e7347e65e8)
+
 ### Installation
 1. Clone the repository:
    ```
