@@ -49,6 +49,7 @@ graph LR
 ---
 
 ![image](https://github.com/DmPanf/Counters_YOLOv8_FastAPI_TgBot_Advanced_ver2/assets/99917230/5bd0eb08-3d61-4ec1-88e3-d6e7347e65e8)
+![image](https://github.com/DmPanf/Counters_YOLOv8_FastAPI_TgBot_Advanced_ver2/assets/99917230/a76d8321-b870-4544-bc6b-b7fbf5bc022e)
 
 ---
 
