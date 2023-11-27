@@ -1,4 +1,4 @@
-## ⚖️ Utility Meter Reading Recognition Project
+## 📟 Utility Meter Reading Recognition Project
 
 ### Overview
 This project aims to automate the process of utility meter (water, gas, electricity) reading using advanced computer vision and machine learning techniques. The core technologies include FastAPI, YOLOv8, and a Telegram Bot (AIOGram) running in a Docker container on Linux Manjaro with an NVidia RTX 3090 Ti GPU.
